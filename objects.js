@@ -21,5 +21,9 @@ function updateObjectWithKeyAndValue(obj, key, value){
 
 console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'));
 
+function updateObjectWithObject(targetObject, updatesObject){
+  return Object.assign({}, targetObject, updatesObject);
+}
 
+console.log(updateObjectWithObject(firstMeal, recipe))
 
