@@ -37,4 +37,5 @@ function updatePlaylist(obj, key, value){
 }
 
 updatePlaylist(playlist, frankOcean, 'blonde');
+console.log(playlist);
 
