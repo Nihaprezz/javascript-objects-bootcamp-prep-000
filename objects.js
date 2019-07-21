@@ -31,6 +31,10 @@ Object.assign({}, {breakfast: ['oatmeal', 'banana']})
 
 var playlist = {drake: 'Over'};
 
-function u
+function updatePlaylist(obj, key, value){
+  obj[key] = value
+  return obj;
+}
 
+updatePlaylist(playlist, frankOcean, 'blonde');
 
