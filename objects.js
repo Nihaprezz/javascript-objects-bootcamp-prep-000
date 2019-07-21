@@ -21,5 +21,5 @@ function updateObjectWithKeyAndValue(obj, key, value){
 
 console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'));
 
-console.log(recipe)
+
 
