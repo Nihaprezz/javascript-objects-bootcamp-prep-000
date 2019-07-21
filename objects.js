@@ -38,5 +38,8 @@ function updatePlaylist(obj, key, value){
 
 updatePlaylist(playlist, 'frank', 'blonde');
 
-function
+function removeFromPlaylist(obj, key){
+  delete obj[key];
+}
+
 
