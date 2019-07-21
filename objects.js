@@ -29,6 +29,6 @@ var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak an
 
 Object.assign({}, {breakfast: ['oatmeal', 'banana']})
 
-console.log(meals2);
+
 
 
