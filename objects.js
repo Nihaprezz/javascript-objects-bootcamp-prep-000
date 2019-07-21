@@ -25,5 +25,5 @@ function updateObjectWithObject(targetObject, updatesObject){
   return Object.assign({}, targetObject, updatesObject);
 }
 
-var meals = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
+var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
 
