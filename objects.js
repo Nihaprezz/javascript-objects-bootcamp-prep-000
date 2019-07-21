@@ -29,6 +29,7 @@ var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak an
 
 Object.assign({}, {breakfast: ['oatmeal', 'banana']})
 
-
+var playlist = {drake: 'Over'};
+console.log(playlist)
 
 
