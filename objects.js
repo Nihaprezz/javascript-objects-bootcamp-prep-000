@@ -27,3 +27,7 @@ function updateObjectWithObject(targetObject, updatesObject){
 
 var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
 
+delete meals2.dinner
+
+console.log(meals2);
+
