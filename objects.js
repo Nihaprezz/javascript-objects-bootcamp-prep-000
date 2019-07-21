@@ -27,8 +27,6 @@ function updateObjectWithObject(targetObject, updatesObject){
 
 var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
 
-meals.breakfast = ["oatmeal", 'banana'];
 
-console.log(meals);
 
 
