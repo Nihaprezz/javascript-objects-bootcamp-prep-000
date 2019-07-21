@@ -27,6 +27,8 @@ function updateObjectWithObject(targetObject, updatesObject){
 
 var meals2 = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
 
+Object.assign({}, {breakfast: ['oatmeal', 'banana']})
 
+console.log(meals2);
 
 
