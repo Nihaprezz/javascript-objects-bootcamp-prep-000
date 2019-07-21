@@ -1,3 +1,3 @@
 const firstMeal = 'breakfast';
 var meals = {[firstMeal]:'oatmeal'}
-console.log(meals);
+console.log(meals.breakfast);
